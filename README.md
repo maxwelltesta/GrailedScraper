@@ -2,6 +2,8 @@
 
 Grailed is a website I have used for years at this point, but only on a surface level. I wanted to take a deep dive to see if I could discover some trends about listing prices, times, and more.
 
+![Grailed page](https://i.imgur.com/JxZntzZ.png)
+
 Some things to consider:
 
 1. Grailed's item feed is located dynamically, which means we can't rely soley on Requests and BeautifulSoup to scrape and parse data. We will use a web driver like Selenium to carry out the physical loading of the page. 

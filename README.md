@@ -28,4 +28,4 @@ Used:
 * Requests (http requests for BS)
 * BeautifulSoup (data scraping and parsing)
 
-*Disclaimer: this code is intended for recreational use only and is not meant to be distributed on a larger scale*
+*Disclaimer: this code is intended for recreational use only and is not meant to be used on a larger scale*

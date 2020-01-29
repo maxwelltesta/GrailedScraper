@@ -6,7 +6,7 @@ Grailed is a website I have used for years at this point, but only on a surface 
 
 Some things to consider:
 
-1. Grailed's item feed is located dynamically, which means we can't rely soley on Requests and BeautifulSoup to scrape and parse data. We will use a web driver like Selenium to carry out the physical loading of the page. 
+1. Grailed's item feed is loaded dynamically, which means we can't rely soley on Requests and BeautifulSoup to scrape and parse data. We will use a web driver like Selenium to carry out the physical loading of the page. 
 2. Since it would be inefficient to load every item for each feed url, Grailed loads them dynamically. This means we have to determine how far to scroll down and subsequently scroll using our web driver. 
 3. Although information like prices, age, and names can be found on the feed, more important information (to me) is found in the source code of the item pages. 
 
